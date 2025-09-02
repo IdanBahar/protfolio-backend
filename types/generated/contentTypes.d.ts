@@ -403,7 +403,7 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     projectlink: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    tech: Schema.Attribute.Text;
+    tech: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

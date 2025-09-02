@@ -52,7 +52,7 @@
       "type": "string"
     },
     "tech": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
